@@ -32,7 +32,7 @@ function fight(enemyName){
       alert("player attack enemy")
       enemy.health=enemy.health-player.attack
       alert(`enemy has ${enemy.health} health`)
-      alert("enemy attack player")
+      alert("enemys attack player")
       player.health=player.health-enemy.attack
       alert(`${enemyName} has ${player.health} health`)
    } 
